@@ -18,18 +18,27 @@ public class ejercicio1 {
 		System.out.println("1-Suma");
 		System.out.println("2-Resta");
 		System.out.println("3-Multiplicacion");
+		System.out.println("4-Division");
 		ope=teclado.nextInt();
 		switch(ope){
-		case 1: 
+		case 1: ope=num1+num2;
+		System.out.println("El resultado de "+num1+ " + "+num2+" es ="+ope);
 		break;
 		case 2: ope=num1-num2;
 		System.out.println("El resultado de "+num1+ " - "+num2+" es = "+ope);
 		break;
-		case 3: 
-		
+		case 3: ope=num1*num2;
+		System.out.println("El resultado de "+num1+ " x "+num2+" es = "+ope);
+		break;
+		case 4: ope=num1/num2;
+		System.out.println("El resultado de "+num1+ " : "+num2+" es = "+ope);
+		}
 
 	}
+
 
 }
-	}
-	
+
+
+
+
